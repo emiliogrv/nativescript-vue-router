@@ -1,6 +1,6 @@
 {
   "name": "nativescript-vue-router-ns",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A simple router implementation that is suitable for NativeScript-Vue.",
   "main": "index.js",
   "scripts": {

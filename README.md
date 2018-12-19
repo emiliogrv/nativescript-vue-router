@@ -23,7 +23,7 @@ yarn add nativescript-vue-router-ns
 
 import Vue from 'nativescript-vue'
 
-import NSVueRouter from 'nativescript-vue-router'
+import NSVueRouter from 'nativescript-vue-router-ns'
 
 import Dashboard from './components/Dashboard'
 import Login from './components/Login'
