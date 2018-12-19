@@ -1,0 +1,41 @@
+{
+  "name": "nativescript-vue-router",
+  "version": "1.0.0",
+  "description": "A simple router implementation that is suitable for NativeScript-Vue.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emiliogrv/nativescript-vue-router.git"
+  },
+  "keywords": [
+    "nativescript",
+    "nativescript-vue",
+    "vue",
+    "router",
+    "vue-router",
+    "vue-navigator",
+    "webpack"
+  ],
+  "author": "Emilio Romero",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emiliogrv/nativescript-vue-router/issues"
+  },
+  "homepage": "https://github.com/emiliogrv/nativescript-vue-router#readme",
+  "nativescript": {
+    "platforms": {
+      "android": "4.2.0",
+      "ios": "4.2.0"
+    },
+    "plugin": {
+      "vue": "true",
+      "category": "Developer"
+    }
+  },
+  "peerDependencies": {
+    "nativescript-vue": "^2.0.0"
+  }
+}
