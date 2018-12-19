@@ -6,13 +6,14 @@
 | --------------------------------------------- |
 | All your own components must have unique name |
 | All routes name must have unique name         |
+| Your app need a main Frame in the render      |
 
 ## Install
 
 ```
-npm install nativescript-vue-router --save
+npm install nativescript-vue-router-ns --save
 or
-yarn add nativescript-vue-router
+yarn add nativescript-vue-router-ns
 ```
 
 ## Usage
@@ -57,12 +58,16 @@ export default router
 
 import Vue from 'nativescript-vue'
 
-import router from '@/router'
+import Main from './Main'
+
+import router from './router'
 
 new Vue({
   router
 
   // ...
+
+  render: h => h('frame', [h(Main)]) // <-- Main Frame in render app
 }).$start()
 ```
 
